@@ -1,8 +1,10 @@
-import App from '../components/App'
-
+import App from "../components/App";
+import Paper from "react-md/lib/Papers/Paper";
 
 export default () => (
   <App>
-    <p>About</p>
+    <Paper className={"content"}>
+      <p>About</p>
+    </Paper>
   </App>
-)
+);
